@@ -219,7 +219,8 @@ th {
     page-break-inside: avoid;
   }
   img {
-    max-width: 100% !important;
+	max-width: 228px !important;
+	width: 228px;
   }
   p,
   h2,
