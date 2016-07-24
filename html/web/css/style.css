@@ -193,7 +193,7 @@ a.download span{
 /*--- Experience Starts Here ----*/
 .experience{
 	background:#f1f2f7;
-	min-height:720px;
+	min-height:1600px;
 }
 .exp-top{
 	padding:2em 0;
@@ -261,20 +261,20 @@ label.book{
 	top:1.5em;
 	
 }
-.exp-devide-grid-right h5,.exp-devide-grid-left h5,.exp-devide-grid-rightb h5{
+.exp-devide-grid-right h5,.exp-devide-grid-left h5,.exp-devide-grid-rightb h5, .exp-devide-grid-leftb h5{
 	color:#2b3b4b;
 	text-transform:uppercase;
 	font-size:18px;
 	font-weight:800;
 	margin:0;
 }
-.exp-devide-grid-right small,.exp-devide-grid-left small,.exp-devide-grid-rightb small{
+.exp-devide-grid-right small,.exp-devide-grid-left small,.exp-devide-grid-rightb small, .exp-devide-grid-leftb small{
 	font-size:16px;
 	font-weight:400;
 	color:#7f8a90;
 	padding:0 0 10px 0;
 }
-.exp-devide-grid-right p,.exp-devide-grid-left p,.exp-devide-grid-rightb p{
+.exp-devide-grid-right p,.exp-devide-grid-left p,.exp-devide-grid-rightb p,.exp-devide-grid-leftb p{
 	font-size:14px;
 	font-weight:400;
 	color:#7f8a90;
@@ -292,13 +292,12 @@ label.book{
 	position:relative;
 	left:3em;
 	top:1.5em;
-	
 }
 .exp-devide-grid-rightb{
 	width:40%;
 	text-align:left;
 	position:absolute;
-	top: 20em;
+	top: 21em;
 	left: 43.255em;
 }
 .exp-devide-grid-rightb:before{
@@ -306,15 +305,39 @@ label.book{
 	position:relative;
 	left:-3em;
 	top:1.5em;
-	
+}
+.exp-devide-grid-leftb{
+	width:40%;
+	text-align:right;
+	position:absolute;
+	top:28em;
+	left: 5.8em;
+}
+.exp-devide-grid-leftb:before{
+	content:url(../images/sec-d.png)no-repeat 0px 0px;
+	position:relative;
+	left:3em;
+	top:1.5em;
 }
 
 .education{
 	margin-top:25%;
 }
+.products {
+	margin-top:23%;
+}
 span.devide-line-education{
 	width:3px;
-	height:250px;
+	height:300px;
+	position:absolute;
+	top:30px;
+	display:initial;
+	background:#d4d4d4;
+}
+
+span.devide-line-products{
+	width:3px;
+	height:800px;
 	position:absolute;
 	top:30px;
 	display:initial;
@@ -892,6 +915,10 @@ p.copyright a:hover{
 		top: 16em;
 		left: 36.2em;
 	}
+	.exp-devide-grid-leftb {
+		top: 16em;
+		left: 4.4em;
+	}
 	.experience {
 		min-height: 970px;
 	}
@@ -940,6 +967,10 @@ p.copyright a:hover{
 		left: 2.8em;
 	}
 	.exp-devide-grid-rightb {
+		top: 18em;
+		left: 28.3em;
+	}
+	.exp-devide-grid-leftb {
 		top: 18em;
 		left: 28.3em;
 	}
@@ -1031,14 +1062,14 @@ p.copyright a:hover{
 		left: 15.8%;
 		width:84%;
 	}
-	.exp-devide-grid-right h5, .exp-devide-grid-left h5, .exp-devide-grid-rightb h5 {
+	.exp-devide-grid-right h5, .exp-devide-grid-left h5, .exp-devide-grid-rightb h5, .exp-devide-grid-leftb h5 {
 		font-size: 16px;
 	}
-	.exp-devide-grid-right p,  .exp-devide-grid-left p,  .exp-devide-grid-rightb p {
+	.exp-devide-grid-right p,  .exp-devide-grid-left p,  .exp-devide-grid-rightb p, .exp-devide-grid-leftb p, {
 		font-size: 14px;
 		line-height:1.2em;
 	}
-	.exp-devide-grid-right small,.exp-devide-grid-left small,.exp-devide-grid-rightb small,{
+	.exp-devide-grid-right small,.exp-devide-grid-left small,.exp-devide-grid-rightb small, .exp-devide-grid-leftb small,{
 		font-size:15px;
 	}
 	.experience {
@@ -1137,6 +1168,10 @@ p.copyright a:hover{
 		left: 0.8em;
 	}
 	.exp-devide-grid-rightb {
+		top: 18em;
+		left: 17.9%;
+	}
+	.exp-devide-grid-leftb {
 		top: 18em;
 		left: 17.9%;
 	}
@@ -1260,6 +1295,9 @@ p.copyright a:hover{
 		left: 22.8%;
 		width:80%;
 	}
+	.exp-devide-grid-leftb {
+		left: -0.4em;
+	}
 	.education {
 		margin-top: 156%;
 	}
@@ -1286,11 +1324,11 @@ p.copyright a:hover{
 	.contact-column i.phone {
 		background-position: -98px 0px;
 	}
-	.exp-devide-grid-right p,  .exp-devide-grid-left p,  .exp-devide-grid-rightb p {
+	.exp-devide-grid-right p,  .exp-devide-grid-left p,  .exp-devide-grid-rightb p, .exp-devide-grid-leftb p {
 		font-size: 13px;
 		line-height:1.5em;
 	}
-	.exp-devide-grid-right small,.exp-devide-grid-left small,.exp-devide-grid-rightb small,{
+	.exp-devide-grid-right small,.exp-devide-grid-left small,.exp-devide-grid-rightb small, .exp-devide-grid-leftb small,{
 		font-size:14px;
 	}
 }
